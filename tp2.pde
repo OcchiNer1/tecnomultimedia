@@ -37,7 +37,7 @@ cubo();
 }
 
 void cubo(){
-translate(-300,-3e00);
+translate(-300,-300);
 strokeWeight(3);
 beginShape(QUADS);
 vertex(250,150);vertex(370,300);vertex(250,450);vertex(130,300);
