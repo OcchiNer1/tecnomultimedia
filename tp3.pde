@@ -5,11 +5,11 @@ PFont letra;
 int game, puntuacion, record, x, y, vertical;
 int wallx[] = new int[2], wally[] =new int[2];
 void setup() {
-   fondo =loadImage("C:/Users/santo/Desktop/tp3_version_2/data/descarga.jpg");
-   compi =loadImage("C:/Users/santo/Desktop/tp3_version_2/data/cuervo.png");
-   columna =loadImage("C:/Users/santo/Desktop/tp3_version_2/data/columna.png");
-   welcomescreen=loadImage("C:/Users/santo/Desktop/tp3_version_2/data/descarga.jpg");
-   letra= createFont("C:/Users/santo/Desktop/tp3_version_2/data/OldLondon.ttf",40);
+   fondo =loadImage("C:/Users/santo/Desktop/tp3/data/descarga.jpg");
+   compi =loadImage("C:/Users/santo/Desktop/tp3/data/cuervo.png");
+   columna =loadImage("C:/Users/santo/Desktop/tp3/data/columna.png");
+   welcomescreen=loadImage("C:/Users/santo/Desktop/tp3/data/descarga.jpg");
+   letra= createFont("C:/Users/santo/Desktop/tp3/data/OldLondon.ttf",40);
    game = 1; puntuacion = 0; record = 0; x = -200; vertical = 0; 
   size(600,800);
   fill(255);
